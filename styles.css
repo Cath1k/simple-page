@@ -57,6 +57,18 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    width: 4.2rem; /* 42px */
+    height: auto;
+    display: block;
+}
+
+.logo-text {
     font-size: 2.4rem;
     font-weight: var(--fw-bold);
     color: var(--clr-accent-primary);
@@ -189,6 +201,14 @@ body {
     }
     .header-actions{
         order: -1;
+    }
+    .logo-img {
+        width: 3.2rem; 
+    }
+
+    
+    .logo-text {
+        display: none;
     }
     .heading  {
         font-size: 3.2rem;
